@@ -5,7 +5,7 @@
   "scripts": {
     "clean": "rmdir /q /s .parcel-cache dist",
     "start": "parcel index.html",
-    "build": "parcel build index.html"
+    "build": "parcel build index.html --no-scope-hoist"
   },
   "author": "LeeDuck",
   "license": "ISC",
